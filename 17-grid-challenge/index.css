@@ -1,0 +1,152 @@
+.content{
+    color: white;
+    font-family: sans-serif;
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.flexbox{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 3/6;
+    margin: 3px;
+}
+
+.flex-container{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 6/7;
+    margin: 3px;
+}
+
+.flex-items{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 7/8;
+    margin: 3px;
+}
+
+.flex-wrap{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 8/9;
+    margin: 3px;
+}
+
+.flex-direction{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 8/9;
+    margin: 3px;
+}
+
+.align-items{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 7/8;
+    margin: 3px;
+}
+
+.justify-content{
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 7/8;
+    margin: 3px;
+}
+
+.grid{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    margin: 3px;
+}
+
+.grid-container{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin: 3px;
+}
+
+.grid-items{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+    margin: 3px;
+}
+
+.grid-template-columns{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    margin: 3px;
+}
+
+.grid-template-rows{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 3/4;
+    margin: 3px;
+}
+
+.grid-row{
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 2/3;
+    margin: 3px;
+}
+
+.grid-column{
+    display: grid;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    margin: 3px;
+}
+
+.responsive-design{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 5/8;
+    margin: 3px;
+}
+
+.media-query{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 5/6;
+    margin: 3px;
+}
+
+.image-resizing{
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 6/7;
+    margin: 3px;
+}
+
+.fli{
+    background-color: blue;
+}
+
+.gri{
+    background-color: darkorchid;
+}
+
+.res{
+    background-color: green;
+}
+
+.fle{
+    background-color: darkblue;
+}
+
+.gre{
+    background-color: purple;
+}
+
+.ree{
+    background-color: darkgreen;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 3px;
+    background-color: rgb(211, 43, 71);
+    color: rgb(196, 207, 32);
+    font-family: "Futura";
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 212, 31) !important;
+}
+
+.wrong {
+    border-radius: 10px;
+    background-color: rgb(209, 36, 36);
+    font-size: 17.5px;
+}
+
+.correct {
+    border-radius: 10px;
+    background-color: rgb(209, 36, 36);
+    font-size: 17.5px;
+}
+
+.question {
+    font-size: 25px;
+}
+
+.info {
+    font-size: 20px;
+}

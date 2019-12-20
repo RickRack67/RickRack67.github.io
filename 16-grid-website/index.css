@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 70px;
+}
+
+.navbar{
+    background-color: rgb(12, 25, 207);
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar{
+    background-color: rgb(190, 29, 29);
+    grid-row: 2/4;
+}
+
+.sidebar div{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 25, 207);
+}
+
+.sidebar div:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(250, 40, 10);
+
+}
+
+.main{
+    background-image: url("https://img.huffingtonpost.com/asset/5d0a4310210000dc18f3cf4b.jpeg?ops=scalefit_630_noupscale");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.footer{
+    background-color: rgb(38, 112, 28);
+}
