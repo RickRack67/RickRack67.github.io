@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(17, 17, 129);
+}
+
+.threat {
+    font-family: fantasy;
+    color: rgb(134, 18, 18);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fff {
+    color: rgb(29, 212, 167);
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sss {
+    color: rgb(33, 131, 39);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

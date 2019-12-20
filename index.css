@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(17, 17, 129);
+    color: rgb(39, 131, 39);
+}
+.box {
+    border: solid 1.5px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ug {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yeet {
+    font-size: 25px;
+    color: rgb(29, 212, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 138, 65)!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
